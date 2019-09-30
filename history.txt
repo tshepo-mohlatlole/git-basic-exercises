@@ -1,0 +1,269 @@
+    1  sudo apt install zsh
+    2  chsh -s /usr/local/bin/zsh
+    3  which zsh
+    4  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    5  sudo apt install powerline fonts-powerline
+    6  cd Do
+    7  \tcd ~/Downloads
+    8  cp ~/Downloads/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+    9  ls
+   10  cd
+   11  git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+   12  cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+   13  nano .zshrc
+   14  chsh -s /bin/zsh
+   15  cd .oh-my-zsh
+   16  upgrade_oh_my_zsh
+   17  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$HOME/.zsh-syntax-highlighting" --depth 1
+   18  echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
+   19  exit
+   20  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   21  nano .zshrc
+   22  exit
+   23  clear
+   24  exit
+   25  clear
+   26  exit
+   27  ls
+   28  pwd
+   29  locate ".pdf"
+   30  locate "*.pdf"
+   31  nano text.md
+   32  find / -name '[*.pdf*]'
+   33  find ~/ -name '[*.pdf*]'
+   34  find ~/ -name "*.pdf*"
+   35  find / -name "*.pdf*"
+   36  sudo find / -name "*.pdf*"
+   37  sudo find / -mtime [-1]
+   38  sudo find / -mtime -1
+   39  cd Projects/python
+   40  ls
+   41  cd octians
+   42  source bin/activate
+   43  ls
+   44  cd octians
+   45  ls
+   46  code
+   47  cd Documents
+   48  mkdir git-basic-exercises && cd git-basic-exercises
+   49  ls -a
+   50  git init
+   51  ls -a
+   52  git status
+   53  touch README.md
+   54  ls -a
+   55  git status
+   56  git log
+   57  git add README.md
+   58  git status
+   59  git rm --cached README.md
+   60  git status
+   61  git add .
+   62  git commit -m "initial commit"
+   63  cd 
+   64  nano laptop.md
+   65  exit
+   66  sudo apt update
+   67  sudo apt install vlx
+   68  sudo apt install vlc
+   69  sudo apt update && sudo apt install ubuntu-restricted-extras
+   70  exit
+   71  shutdown now
+   72  reboot
+   73  cd Projects
+   74  cd python
+   75  ls
+   76  python3 -m venv portfolio
+   77  cd portfolio
+   78  django-admin
+   79  django-admin startproject portfolio
+   80  source bin/activate
+   81  cd portfolio
+   82  code .
+   83  pip install django
+   84  pip3 install django
+   85  pip3 freeze
+   86  pip3 install psycopg2
+   87  la
+   88  pip3 freeze >> requirements.txt
+   89  python3 manage.py migrate
+   90  python3 manage.py runserver
+   91  source /home/sjk-lacoste/Projects/python/octians/bin/activate
+   92  python3 manage.py startapp projects
+   93  python3 manage.py makemigrations projects
+   94  python3 manage.py migrate projects
+   95  python3 manage.py shell\n: 1569591299:0;python3 manage.py shell
+   96  shutdown now
+   97  cd Documents
+   98  ls
+   99  code .
+  100  clear
+  101  exit
+  102  clear
+  103  shutdown now
+  104  cd Projects
+  105  cd python
+  106  cd octians
+  107  source bin/activate
+  108  cd octians
+  109  code .
+  110  deactivate
+  111  cd ..
+  112  cd portfolio
+  113  source bin/activate
+  114  cd portfolio
+  115  code .
+  116  python3 manage.py runserver
+  117  deactivate
+  118  cd ..]
+  119  cd ..
+  120  cd octians
+  121  source bin/activate
+  122  cd octians
+  123  code .
+  124  python3 manage.py runserver
+  125  deactivate
+  126  cd ..
+  127  cd portfolio
+  128  source bin/activate
+  129  cd portfolio
+  130  python3 manage.py runserver
+  131  sudo apt update
+  132  sudo apt upgrade
+  133  sudo apt autoremove
+  134  cd P
+  135  cd Projects
+  136  cd python
+  137  cd portfolio
+  138  source bin/activate
+  139  cd portfolio
+  140  code .
+  141  git init
+  142  echo "# Portfolio" >> README.md
+  143  git add README.md
+  144  git commit -m "Initial commit"
+  145  git config --global user.email "tmohlatlole@gmail.com"
+  146  git config --global user.email "tmohlatlole@gmail.com" --replace-all
+  147  git config --global user.name "Sjk-Lacoste" --replace-all
+  148  git commit -m "Initial commit"
+  149  git remote add origin https://github.com/Sjk-Lacoste/portfolio.git
+  150  git push -u origin master
+  151  git add .
+  152  git commit -am "Configured Django and database connection"
+  153  git push
+  154  python3 manage.py runserver
+  155  python3 manage.py createsuperuser
+  156  python3 manage.py runserver
+  157  python3 manage.py makemigrations
+  158  python3 manage.py migrate
+  159  python3 manage.py runserver
+  160  python3 manage.py makemigrations
+  161  python3 manage.py migrate
+  162  python3 manage.py makemigrations
+  163  pip3 install Pillow
+  164  sudo apt update
+  165  pip3 install Pillow
+  166  pip3 freeze
+  167  pip3 freeze >> requirements.txt
+  168  python3 manage.py makemigrations
+  169  python3 manage.py migrate
+  170  python3 manage.py runserver
+  171  sudo apt install php
+  172  sudo chown -R $USER /var/www
+  173  cd /var/www
+  174  git clone https://github.com/Sjk-Lacoste/izwelethu.git
+  175  sudo apt update
+  176  exit
+  177  sudo apt install curl php-cli php-mbstring git unzip
+  178  cd ~
+  179  curl -sS https://getcomposer.org/installer -o composer-setup.php
+  180  sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+  181  composer
+  182  cd /var/www/izwelethu
+  183  sudo apt install nodejs npm -y
+  184  cp .env.example .env
+  185  composer install
+  186  sudo apt install phpmyadmin
+  187  npm install
+  188  sudo apt install mysql-server
+  189  composer install
+  190  sudo apt install php-curl php-imagick php-dom php-bcmath php-json php-mbstring php-openssl php-pdo php-tokenizer php-xml
+  191  sudo apt install php-curl php-imagick php-dom php-bcmath php-json php-mbstring php-ssl php-pdo php-tokenizer php-xml
+  192  sudo apt install php-curl php-imagick php-dom php-bcmath php-json php-mbstring php-pdo php-tokenizer php-xml
+  193  clear
+  194  exit
+  195  sudo apt update
+  196  exit
+  197  code .
+  198  npm install bootstrap
+  199  shutdown now
+  200  vim text.md
+  201  cd Projects/python/portfolio
+  202  source bin/activate
+  203  cd portfolio
+  204  code .
+  205  clear
+  206  python3 manage.py runserver
+  207  deactivate
+  208  cd /var/www
+  209  ls
+  210  sudo nano /etc/apache2/sites-available/000-default.conf
+  211  cd html
+  212  ls
+  213  exit
+  214  python3 manage.py makemigrations
+  215  python3 manage.py migrate
+  216  python3 manage.py makemigrations
+  217  python3 manage.py migrate
+  218  python3 manage.py runserver
+  219  python3 manage.py createsuperuser
+  220  shutdown now
+  221  cd Documents
+  222  ls
+  223  cd git-basic-exercises
+  224  ls
+  225  git log
+  226  git status
+  227  cp README.md CHANGELOG.md
+  228  touch exercise.md && sudo mv exercise.md /tmp
+  229  ls /tmp
+  230  git remote add origin https://github.com/tshepo-mohlatlole/git-basic-exercises.git
+  231  git push -u origin master
+  232  echo "# Git Basic Exercises" >> README.md
+  233  git add README.md
+  234  git commit -m "Updated readme file"
+  235  git push
+  236  sudo nano README.md
+  237  nano README.md
+  238  git add README.md
+  239  git commit -m "second commit"
+  240  git push 
+  241  nano README.md
+  242  git add README.md
+  243  git commit -m "third commit"\
+  244  git commit -m "third commit"
+  245  git push
+  246  git log
+  247  git checkout eef69557484792dd3742e711e17292cd4a900e25
+  248  cat README.md
+  249  git checkout master
+  250  cat README.md
+  251  git branch
+  252  git branch milkshake-flavours
+  253  git branch
+  254  git checkout milkshake-flavours
+  255  git branch
+  256  nano milkshakes.md
+  257  git status
+  258  rm CHANGELOG.md
+  259  git status
+  260  git add milkshakes.md
+  261  git commit -m "added initial flavours"
+  262  git log
+  263  git push
+  264  git push --sey-upstream origin milkshake-flavours
+  265  git push --set-upstream origin milkshake-flavours
+  266  git checkout master
+  267  git branch history
+  268  git checkout history
+  269  git log
